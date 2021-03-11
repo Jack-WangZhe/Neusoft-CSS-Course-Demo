@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        #div1 {
+            height: 150px;
+            width: 700px;
+
+            /* 基本设置 */
+            /* border-style: dashed;
+            border-width: 5px;
+            border-color: blue; */
+
+            /* 简写 */
+            /* border: 5px solid red; */
+
+            /* 圆角 */
+            /* border: 3px solid yellowgreen;
+            border-radius: 10px; */
+
+            /* 水平阴影位置，垂直阴影位置，可选的模糊距离，阴影大小，阴影颜色 */
+            border: 3px solid yellowgreen;
+            box-shadow:	4px	4px	20px 20px red;
+        }
+        
+        .display-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body class="display-center">
+    <div id="div1">
+        This is Border
+    </div>
+</body>
+</html>

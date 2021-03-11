@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        #div1 {
+            background: yellowgreen;
+        }
+
+        @media screen and (max-width: 600px) {
+            #div1 {
+                background: #dddddd;
+            }
+        }
+
+        @media screen and (min-width: 600px) and (max-width: 900px) {
+            #div1 {
+                background: #ffffaa;
+            }
+        }
+
+        .display-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 100px;
+        }
+    </style>
+</head>
+
+<body class="display-center">
+    <div id="div1">
+        This is a box
+    </div>
+</body>
+
+</html>

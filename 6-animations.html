@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes blushing {
+            from {
+                background: #ddd;
+            }
+            to {
+                background: #ff9999;
+            }
+        }
+
+        #div1 {
+            height: 150px;
+            width: 700px;
+            
+            /* animation: blushing 5s; */
+            /* infinite alternate */
+
+            /* 过渡属性 */
+            /* transition: background 2s; */
+            
+            /* transition: all 5s; */
+        }
+
+        #div1:hover {
+            /* background: red; */
+
+            /* background: yellowgreen;
+            width: 900px; */
+        }
+        
+        .display-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body class="display-center">
+    <div id="div1">
+        This is a box
+    </div>
+</body>
+</html>

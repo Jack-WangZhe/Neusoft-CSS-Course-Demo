@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        #div1 {
+            height: 150px;
+            width: 700px;
+            background: yellowgreen;
+            
+            /* 旋转15度 */
+            /* transform: rotate(15deg); */
+            /* 旋转180度 */
+            /* transform: rotate(180deg); */
+
+            /* 倾斜设置 */
+            /* transform: skew(15deg, 15deg); */
+            /* transform: skewX(15deg); */
+            /* transform: skewY(15deg); */
+
+            /* 缩放设置 */
+            /* transform: scale(0.5); */
+            /* transform: scale(2); */
+            /* transform: scaleX(2); */
+            /* transform: scaleY(2); */
+
+            /* translate用于设置2D转换 */
+            /* transform: translateX(15px);
+            transform: translateY(15px); */
+            /* transform: translate(15px, 15px); */
+        }
+        
+        .display-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body class="display-center">
+    <div id="div1">
+        This is a box
+    </div>
+</body>
+</html>
